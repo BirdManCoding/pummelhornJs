@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Unicorns</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Unicorns</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/send-joke.html">Unicorns make Dad Joke</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <div id="unicorn-container">
+    <h1>The magical Unicorns</h1>
+    <div id="unicorn-card-wrapper">
+
+    </div>
+    </div>
+  </main>
+
+
+  <template id="unicorn-card-template">
+    <div class="unicorn-card">
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.pinimg.com/originals/aa/39/19/aa3919eb9e8fff487162328782439a66.jpg" class="card-img-top" alt="Kekshorn">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <button class="btn btn-primary">Show Dad Jokes</button>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <template id="popup-modal">
+    <div class="unicorn-modal">
+      <div class="col">
+        <div class="card scrollable">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <hr>
+            <h6 class="card-title">The following dad jokes were made:</h6>
+            <div class="dad-jokes"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+</body>
+
+</html>
